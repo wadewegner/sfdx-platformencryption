@@ -8,7 +8,7 @@ This is a simple example of using encrypted fields in a DE scratch org.
 
 2) Push all the source into the scratch org: `sfdx force:source:push`
 
-3) Assign the permission set granting you `ManageEncryptionKeys`: sfdx force:user:permset:assign -n Encryption
+3) Assign the permission set granting you `ManageEncryptionKeys`: `sfdx force:user:permset:assign -n Encryption`
 
 4) Create a tenant secret: `sfdx force:data:record:create -s TenantSecret -v "Description=test"`. Details on tenant secrets can be found [here](https://help.salesforce.com/articleView?id=security_pe_key_admin_creating.htm&language=en_US&type=0).
 
